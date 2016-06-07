@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: Flask-DebugTool
 Version: 0.1.0
 Summary: A toolbar overlay for debugging Flask applications.
-Home-page: UNKNOWN
+Home-page: https://github.com/lufeng4828/flask_debugtool
 Author: Feng Lu
 Author-email: lufeng044@qq.com
 License: BSD

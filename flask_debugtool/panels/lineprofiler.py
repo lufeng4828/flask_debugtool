@@ -3,7 +3,7 @@ import functools
 import inspect
 import linecache
 import collections
-
+import __builtin__
 import jinja2
 
 from ..debug_panel import DebugPanel
@@ -29,6 +29,8 @@ def line_profile(f):
     """
     functions_to_profile.append(f)
     return f
+
+__builtin__.__dict__["profile"] = line_profile
 
 
 def process_line_stats(line_stats):
