@@ -16,6 +16,7 @@ setup(
     name='Flask-DebugTool',
     version='0.1.0',
     license='BSD',
+    url='https://github.com/lufeng4828/flask_debugtool',
     author='Feng Lu',
     author_email='lufeng044@qq.com',
     maintainer='Feng Lu',
